@@ -1,0 +1,177 @@
+/* ===== Codeing by Muhammad Zubair Moosani ===== */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: .4em 1em;
+    min-width: 935px;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 14.5em;
+    margin-right: .8em;
+    padding: 0;
+}
+header nav a {
+    text-decoration: none;
+}
+.gmail, .image {
+    font-size: 13px;    
+    color: #333;
+}
+.gmail:hover, .image:hover{
+    text-decoration: underline;
+    color: #545454;
+}
+.th_icon {
+    font-size: 1.2em;
+    color: #656565;
+}
+.th_icon:hover {
+    color: black;
+}
+.bell_icon {
+    font-size: .6em;
+    color: white;
+    background-color: #656565;
+    padding:.6em;
+    border-radius: 2em;
+}
+.bell_icon:hover {
+    background-color: black;
+}
+.M_alphabet {
+    color: white;
+    background-color: #F85F2F;
+    padding: 8px 10px;
+    border-radius: 1.5em;
+}
+#center_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    padding-top: 8.2em;
+    height: 57.8vh;
+    min-width: 960px;
+    min-height: 300px;
+}
+.input_field {
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-repeat: no-repeat;
+    background-position: 34em;
+    background-size: 1.5em;
+    padding: .8em 3em .8em 1em;
+    margin-top: .5em;
+    margin-left: .7em;
+    border-radius: .1em;
+    box-shadow: 0px 1px 3px -1px  gray;
+    border: 1px solid #EAEAEA;
+    color: rgba(0,0,0,.87);
+    width: 32.5em;
+    outline: none;
+    font-size: 16px;
+}
+.input_field:hover {
+    box-shadow: 0px 2px 8px -1px gray;
+    transition: .1s
+}
+.btn_group {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 17.5em;
+    margin-top: .9em;
+}
+.bunch_of_two_btns  {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    border: 1px solid #f2f2f2;
+    outline: none;
+    color: #757575;
+    background-color: #F2F2F2;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+.bunch_of_two_btns:hover {
+    color: #222;
+    box-shadow: 0px 0px 2.5px gray;
+}
+abbr {
+    text-decoration: none;
+}
+.lanuages {
+    font-size: small;
+    margin-top: 2.2em;
+    color: #222;
+    width: 16.8em;
+    display: flex;
+    justify-content: space-around;
+}
+.lanuages a {
+    color: #1a0dab;
+    cursor: pointer;
+    text-decoration: none;
+}
+.lanuages a:hover {
+    text-decoration: underline;
+}
+footer {
+    border: 1px ridge #E3E3E3;
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    min-width: 960px;
+    z-index: 1;
+    position: relative;
+}
+footer .Pakistan {
+    flex-direction: row;    
+    padding: .8em 2em;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+hr {
+    border: .5px solid #E3E3E3;
+    margin: 0;
+}
+footer .nav_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5em 0;
+}
+.nav_list .footer_leftSide_navbar {
+    display: flex;
+    padding: 0.4em 0;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: small;
+    color: #5f6368;
+    margin: 0 0 0 2.3em;
+    width: 15.7em;
+}
+.nav_list .footer_rightSide_navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 13.7em;
+    font-size: small;
+    color: #5f6368;
+    margin: 0 2.3em 0 0;
+}
+.footer_rightSide_navbar a, .footer_leftSide_navbar a {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+/* ===== Codeing by Muhammad Zubair Moosani ===== */
