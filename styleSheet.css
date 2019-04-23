@@ -232,6 +232,12 @@ hr {
     flex-wrap: wrap;
 }
 
+@media (max-width: 500px) {
+    .nav_list {
+        justify-content: center;
+    }
+}
+
 ul.footer_leftSide_navbar {
     padding-left: 27px;
     width: 16em;
@@ -252,6 +258,13 @@ ul.footer_rightSide_navbar, ul.footer_leftSide_navbar {
     font-size: small;
     color: #5F6368;
     cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    ul.footer_rightSide_navbar, ul.footer_leftSide_navbar {
+        margin: 2px 0;
+        width: 80%;
+    }
 }
 
 ul.footer_rightSide_navbar a, ul.footer_leftSide_navbar a {
